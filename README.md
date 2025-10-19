@@ -15,6 +15,7 @@ I'm a current student working towards a bachhelor's degree in Cybersecurity and 
 - [CompTIA Security+](https://www.credly.com/badges/aa112932-79d3-4bfb-9e5a-2251abcbb71f/public_url)
 - [CompTIA A+](https://www.credly.com/badges/7a63b311-913c-4de8-8f73-d20db31c66d2/public_url)
 - [CompTIA Network+](https://www.credly.com/badges/8e79ce47-c453-4ede-9813-7f68effddfe1/public_url)
+- [CompTIA CySA+] (N/A)
 
 <details>
   <summary><h2> <img align="center" src="https://github.com/[YourUsername]/[YourUsername]/blob/main/icons/stats.gif" width="32"/> Stats</h2></summary>
