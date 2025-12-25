@@ -6,7 +6,7 @@ I'm a current student working towards a bachhelor's degree in Cybersecurity and 
 ## 👨‍💻 Cybersecurity Projects:
 
 - [Proxmox: Virtual Homelab Environment](N/A)
-- [Proxmox: Nextcloud Personal Cloud with Cloudflare](N/A)
+- [Proxmox: Nextcloud Personal Cloud with Cloudflare](https://github.com/jaydendh/NextCloud-Server-Setup)
 - [Proxmox: Self Hosted VPN](N/A)
 - [Proxmox: Adguard DNS Server](N/A)
 
