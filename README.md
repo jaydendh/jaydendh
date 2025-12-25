@@ -9,6 +9,8 @@ I'm a current student working towards a bachhelor's degree in Cybersecurity and 
 - [Proxmox: Nextcloud Personal Cloud with Cloudflare](https://github.com/jaydendh/NextCloud-Server-Setup)
 - [Proxmox: Self Hosted VPN](N/A)
 - [Proxmox: Adguard DNS Server](N/A)
+- [Azure Identity Centric Security Logging](https://github.com/jaydendh/Azure-Identity-Centric-Security-Logging/blob/main/README.md)
+- [Azure Zero Trust Hub Networking](https://github.com/jaydendh/Azure-Zero-Trust-Hub-Networking) 
 
 ## 📝 Certifications:
 
