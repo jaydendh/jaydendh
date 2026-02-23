@@ -50,6 +50,7 @@ Currently securing cloud environments, leading Azure migrations, and building CM
 | [DNS Security Server](https://github.com/jaydendh/AdGuard-DNS-Security-Server) | Network-wide DNS filtering, sinkholing, C2 blocking with DoH | AdGuard, DNS, DoH |
 | [Secure VPN Gateway](https://github.com/jaydendh/Secure-VPN-Gateway) | Encrypted remote access with firewall rules and least-privilege ACLs | VPN, iptables, UFW |
 | [Proxmox Telegram AI Agent](https://github.com/jaydendh/Proxmox-Telegram-AI-Agent) | AI-powered VM monitoring with Telegram alerts, auto-recovery, and remote troubleshooting | Proxmox API, Telegram, Python, AI |
+| [TrueNAS Storage Server](https://github.com/jaydendh/TrueNAS-Self-Hosted-Storage) | Self-hosted NAS on Proxmox with user accounts, ACLs, and ZFS storage | TrueNAS, ZFS, ACL, Proxmox |
 | [Nextcloud Private Cloud](https://github.com/jaydendh/NextCloud-Server-Setup) | Self-hosted cloud storage with E2E encryption and zero-trust access | Nextcloud, Cloudflare, Tailscale |
 
 ---
