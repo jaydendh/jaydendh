@@ -10,7 +10,7 @@
 
 ---
 
-B.S. Cybersecurity & Information Assurance | 7x Industry Certified | Azure Cloud Security
+B.S. Cybersecurity & Information Assurance | 8x Industry Certified | Azure Cloud Security
 
 Currently securing cloud environments, leading Azure migrations, and building CMMC/NIST compliant infrastructure for DoD contracts.
 
