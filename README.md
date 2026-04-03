@@ -22,6 +22,7 @@ Currently securing cloud environments, leading Azure migrations, and building CM
 
 <div align="center">
 
+[![AZ-900](https://img.shields.io/badge/Microsoft-AZ--900-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)](https://learn.microsoft.com/api/credentials/share/en-us/jayden-7296/8E3C21D2CD7CE40A?sharingId=5911BDD371A0D73C)
 [![CySA+](https://img.shields.io/badge/CompTIA-CySA%2B-red?style=flat-square&logo=comptia&logoColor=white)](https://www.credly.com/users/jaydendh)
 [![Security+](https://img.shields.io/badge/CompTIA-Security%2B-red?style=flat-square&logo=comptia&logoColor=white)](https://www.credly.com/badges/aa112932-79d3-4bfb-9e5a-2251abcbb71f/public_url)
 [![Network+](https://img.shields.io/badge/CompTIA-Network%2B-red?style=flat-square&logo=comptia&logoColor=white)](https://www.credly.com/badges/8e79ce47-c453-4ede-9813-7f68effddfe1/public_url)
