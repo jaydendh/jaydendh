@@ -2,7 +2,7 @@
 
 # Jayden Hill
 
-**Cloud Security | DevSecOps | Azure | AWS | Compliance**
+**Cloud Security | Infrastructure as Code | Azure | AWS | IAM**
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jayden-hill-08ba02329/)
 [![Portfolio](https://img.shields.io/badge/Portfolio-222222?style=for-the-badge&logo=githubpages&logoColor=white)](https://jaydendh.github.io)
@@ -12,7 +12,7 @@
 
 B.S. Cybersecurity & Information Assurance | 8x Industry Certified | Azure & AWS Cloud Security
 
-Currently securing cloud environments, leading Azure migrations, and building CMMC/NIST compliant infrastructure for DoD contracts.
+Building and securing cloud infrastructure with Terraform across Azure and AWS. Focused on IAM, network segmentation, secrets management, and compliance-aligned architecture.
 
 </div>
 
@@ -35,6 +35,18 @@ Currently securing cloud environments, leading Azure migrations, and building CM
 
 ---
 
+## Terraform / Infrastructure as Code Projects
+
+| Project | Description | Tech |
+|---------|-------------|------|
+| [Azure 3-Tier Architecture](https://github.com/jaydendh/azure-3tier-architecture) | Production-grade 3-tier architecture with App Service, SQL, Key Vault, Application Gateway, Private Endpoints, and full monitoring | Terraform, Azure, NSG, Key Vault, App Gateway |
+| [Azure 3-Tier Simplified](https://github.com/jaydendh/azure-3tier-simple) | Core 3-tier architecture focused on networking fundamentals — VNet, subnets, NSGs, App Service, SQL | Terraform, Azure, NSG |
+| [Azure Web App](https://github.com/jaydendh/azure-webapp-terraform) | Minimal App Service deployment demonstrating core Terraform resource blocks and dependency ordering | Terraform, Azure App Service |
+| [Azure Static Website](https://github.com/jaydendh/azure-static-site-terraform) | Serverless static site on Azure Blob Storage — no VMs, no quota, near-zero cost | Terraform, Azure Storage |
+| [AWS EC2 Secure Deployment](https://github.com/jaydendh/aws-terraform-ec2) | Secure EC2 instance with VPC, public subnet, IGW, and SSH-restricted security group | Terraform, AWS, EC2, VPC |
+
+---
+
 ## Cloud Security Projects
 
 | Project | Description | Tech |
@@ -42,7 +54,8 @@ Currently securing cloud environments, leading Azure migrations, and building CM
 | [Azure Zero Trust Networking](https://github.com/jaydendh/Azure-Zero-Trust-Hub-Networking) | Hub-and-spoke architecture with Bastion, NSGs, and zero public IPs | Azure, Bastion, NSG, VNet |
 | [Azure Identity Security & Logging](https://github.com/jaydendh/Azure-Identity-Centric-Security-Logging) | Identity-first security with Entra ID sign-in monitoring and KQL investigations | Azure, Entra ID, Log Analytics, KQL |
 | [Azure SIEM Honeypot](https://github.com/jaydendh/azure-siem-honeypot) | Windows honeypot VM with Microsoft Sentinel for real-time brute force attack monitoring and geolocation mapping | Terraform, Sentinel, Log Analytics, KQL |
-| [AWS EC2 Secure Deployment](https://github.com/jaydendh/aws-terraform-ec2) | Deploys a secure EC2 instance with VPC, public subnet, IGW, and SSH-restricted security group using Terraform | AWS, Terraform, EC2, VPC |
+
+---
 
 ## Home Lab Projects
 
@@ -64,6 +77,7 @@ Currently securing cloud environments, leading Azure migrations, and building CM
 
 ![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonaws&logoColor=white)
 ![Azure](https://img.shields.io/badge/Azure-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)
+![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=flat-square&logo=terraform&logoColor=white)
 ![Active Directory](https://img.shields.io/badge/Active%20Directory-0078D4?style=flat-square&logo=microsoft&logoColor=white)
 ![VMware](https://img.shields.io/badge/VMware-607078?style=flat-square&logo=vmware&logoColor=white)
 ![Proxmox](https://img.shields.io/badge/Proxmox-E57000?style=flat-square&logo=proxmox&logoColor=white)
@@ -72,7 +86,6 @@ Currently securing cloud environments, leading Azure migrations, and building CM
 ![PowerShell](https://img.shields.io/badge/PowerShell-5391FE?style=flat-square&logo=powershell&logoColor=white)
 ![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white)
 ![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=flat-square&logo=cloudflare&logoColor=white)
-![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=flat-square&logo=terraform&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 
 </div>
@@ -84,6 +97,8 @@ Currently securing cloud environments, leading Azure migrations, and building CM
 **Compliance:** NIST 800-171 | CMMC Level 2 | MITRE ATT&CK | ITIL
 
 **Networking:** VLANs | VPN | Firewalls | Network Segmentation | DNS
+
+**IaC:** Terraform | Azure Resource Manager | Infrastructure Automation
 
 </div>
 
