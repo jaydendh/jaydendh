@@ -2,7 +2,7 @@
 
 # Jayden Hill
 
-**Cloud Security | DevSecOps | Azure | Compliance**
+**Cloud Security | DevSecOps | Azure | AWS | Compliance**
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jayden-hill-08ba02329/)
 [![Portfolio](https://img.shields.io/badge/Portfolio-222222?style=for-the-badge&logo=githubpages&logoColor=white)](https://jaydendh.github.io)
@@ -10,7 +10,7 @@
 
 ---
 
-B.S. Cybersecurity & Information Assurance | 8x Industry Certified | Azure Cloud Security
+B.S. Cybersecurity & Information Assurance | 8x Industry Certified | Azure & AWS Cloud Security
 
 Currently securing cloud environments, leading Azure migrations, and building CMMC/NIST compliant infrastructure for DoD contracts.
 
@@ -42,6 +42,7 @@ Currently securing cloud environments, leading Azure migrations, and building CM
 | [Azure Zero Trust Networking](https://github.com/jaydendh/Azure-Zero-Trust-Hub-Networking) | Hub-and-spoke architecture with Bastion, NSGs, and zero public IPs | Azure, Bastion, NSG, VNet |
 | [Azure Identity Security & Logging](https://github.com/jaydendh/Azure-Identity-Centric-Security-Logging) | Identity-first security with Entra ID sign-in monitoring and KQL investigations | Azure, Entra ID, Log Analytics, KQL |
 | [Azure SIEM Honeypot](https://github.com/jaydendh/azure-siem-honeypot) | Windows honeypot VM with Microsoft Sentinel for real-time brute force attack monitoring and geolocation mapping | Terraform, Sentinel, Log Analytics, KQL |
+| [AWS EC2 Secure Deployment](https://github.com/jaydendh/aws-terraform-ec2) | Deploys a secure EC2 instance with VPC, public subnet, IGW, and SSH-restricted security group using Terraform | AWS, Terraform, EC2, VPC |
 
 ## Home Lab Projects
 
@@ -61,6 +62,7 @@ Currently securing cloud environments, leading Azure migrations, and building CM
 
 <div align="center">
 
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonaws&logoColor=white)
 ![Azure](https://img.shields.io/badge/Azure-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)
 ![Active Directory](https://img.shields.io/badge/Active%20Directory-0078D4?style=flat-square&logo=microsoft&logoColor=white)
 ![VMware](https://img.shields.io/badge/VMware-607078?style=flat-square&logo=vmware&logoColor=white)
