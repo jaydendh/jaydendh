@@ -39,6 +39,7 @@ Building and securing cloud infrastructure with Terraform across Azure and AWS. 
 
 | Project | Description | Tech |
 |---------|-------------|------|
+| [AWS SMB Environment](https://github.com/jaydendh/aws-smb-environment) | Three-VPC AWS infrastructure for a small business — web, office, and database tiers with VPC peering, EC2 via SSM, S3 file storage, and RDS MySQL | Terraform, AWS, VPC, EC2, S3, RDS, IAM |
 | [Azure 3-Tier Architecture](https://github.com/jaydendh/azure-3tier-architecture) | Production-grade 3-tier architecture with App Service, SQL, Key Vault, Application Gateway, Private Endpoints, and full monitoring | Terraform, Azure, NSG, Key Vault, App Gateway |
 | [Azure 3-Tier Simplified](https://github.com/jaydendh/azure-3tier-simple) | Core 3-tier architecture focused on networking fundamentals — VNet, subnets, NSGs, App Service, SQL | Terraform, Azure, NSG |
 | [Azure Web App](https://github.com/jaydendh/azure-webapp-terraform) | Minimal App Service deployment demonstrating core Terraform resource blocks and dependency ordering | Terraform, Azure App Service |
