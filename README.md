@@ -55,6 +55,7 @@ Building and securing cloud infrastructure with Terraform across Azure and AWS. 
 | [Azure Zero Trust Networking](https://github.com/jaydendh/Azure-Zero-Trust-Hub-Networking) | Hub-and-spoke architecture with Bastion, NSGs, and zero public IPs | Azure, Bastion, NSG, VNet |
 | [Azure Identity Security & Logging](https://github.com/jaydendh/Azure-Identity-Centric-Security-Logging) | Identity-first security with Entra ID sign-in monitoring and KQL investigations | Azure, Entra ID, Log Analytics, KQL |
 | [Azure SIEM Honeypot](https://github.com/jaydendh/azure-siem-honeypot) | Windows honeypot VM with Microsoft Sentinel for real-time brute force attack monitoring and geolocation mapping | Terraform, Sentinel, Log Analytics, KQL |
+| [AWS Terraform EC2](https://github.com/jaydendh/aws-terraform-ec2) | Secure EC2 deployment with CI/CD pipeline including TruffleHog secret scanning, Trivy misconfiguration scanning, and Terraform plan validation | Terraform, AWS, GitHub Actions, Trivy, TruffleHog |
 
 ---
 
@@ -88,6 +89,7 @@ Building and securing cloud infrastructure with Terraform across Azure and AWS. 
 ![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white)
 ![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=flat-square&logo=cloudflare&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
 
 </div>
 
