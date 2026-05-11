@@ -39,7 +39,6 @@ Building and securing cloud platforms with Terraform and GitHub Actions across A
 
 | Project | Description | Tech |
 |---------|-------------|------|
-| [Terraform Module Library](https://github.com/jaydendh/terraform-modules) | Reusable, security-hardened Terraform modules for Azure and AWS — covers compute, networking, storage, and database tiers. Consumed by multiple downstream environments via module sourcing | Terraform, Azure, AWS, GitHub Actions, Trivy, TruffleHog |
 | [AWS 3-Tier Backend](https://github.com/jaydendh/aws-3tier-backend) | Modular 3-tier AWS backend (EC2, S3, RDS) assembled entirely from reusable Terraform modules. Includes a full DevSecOps pipeline: TruffleHog secret scanning, Trivy misconfiguration scanning, Terraform fmt/validate, and plan preview on every push | Terraform, AWS, GitHub Actions, Trivy, TruffleHog |
 | [AWS Dev Data Pipeline](https://github.com/jaydendh/AWS-dev-data-pipeline) | End-to-end serverless data pipeline: raw S3 → Lambda (Python) → processed S3/RDS. Security-first: IMDSv2, encrypted storage, least-privilege IAM, CloudWatch retention, and full CI/CD security gate | Terraform, AWS, Lambda, S3, RDS, GitHub Actions, Trivy, TruffleHog |
 
