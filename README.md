@@ -2,7 +2,7 @@
 
 # Jayden Hill
 
-**Cloud Security | Infrastructure as Code | Azure | AWS | IAM**
+**Platform Engineering | DevSecOps | Infrastructure as Code | Azure | AWS | CI/CD**
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jayden-hill-08ba02329/)
 [![Portfolio](https://img.shields.io/badge/Portfolio-222222?style=for-the-badge&logo=githubpages&logoColor=white)](https://jaydendh.github.io)
@@ -12,7 +12,7 @@
 
 B.S. Cybersecurity & Information Assurance | 8x Industry Certified | Azure & AWS Cloud Security
 
-Building and securing cloud infrastructure with Terraform across Azure and AWS. Focused on IAM, network segmentation, secrets management, and compliance-aligned architecture.
+Building and securing cloud platforms with Terraform and GitHub Actions across Azure and AWS. Focused on reusable IaC modules, automated security scanning pipelines, IAM least-privilege, secrets management, and compliance-aligned architecture.
 
 </div>
 
@@ -32,6 +32,16 @@ Building and securing cloud infrastructure with Terraform across Azure and AWS. 
 [![Linux](https://img.shields.io/badge/LPI-Linux%20Essentials-FCC624?style=flat-square&logo=linux&logoColor=black)](https://www.credly.com/users/jaydendh)
 
 </div>
+
+---
+
+## Platform Engineering & DevSecOps Projects
+
+| Project | Description | Tech |
+|---------|-------------|------|
+| [Terraform Module Library](https://github.com/jaydendh/terraform-modules) | Reusable, security-hardened Terraform modules for Azure and AWS — covers compute, networking, storage, and database tiers. Consumed by multiple downstream environments via module sourcing | Terraform, Azure, AWS, GitHub Actions, Trivy, TruffleHog |
+| [AWS 3-Tier Backend](https://github.com/jaydendh/aws-3tier-backend) | Modular 3-tier AWS backend (EC2, S3, RDS) assembled entirely from reusable Terraform modules. Includes a full DevSecOps pipeline: TruffleHog secret scanning, Trivy misconfiguration scanning, Terraform fmt/validate, and plan preview on every push | Terraform, AWS, GitHub Actions, Trivy, TruffleHog |
+| [AWS Dev Data Pipeline](https://github.com/jaydendh/AWS-dev-data-pipeline) | End-to-end serverless data pipeline: raw S3 → Lambda (Python) → processed S3/RDS. Security-first: IMDSv2, encrypted storage, least-privilege IAM, CloudWatch retention, and full CI/CD security gate | Terraform, AWS, Lambda, S3, RDS, GitHub Actions, Trivy, TruffleHog |
 
 ---
 
@@ -80,28 +90,29 @@ Building and securing cloud infrastructure with Terraform across Azure and AWS. 
 ![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonaws&logoColor=white)
 ![Azure](https://img.shields.io/badge/Azure-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)
 ![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=flat-square&logo=terraform&logoColor=white)
-![Active Directory](https://img.shields.io/badge/Active%20Directory-0078D4?style=flat-square&logo=microsoft&logoColor=white)
-![VMware](https://img.shields.io/badge/VMware-607078?style=flat-square&logo=vmware&logoColor=white)
-![Proxmox](https://img.shields.io/badge/Proxmox-E57000?style=flat-square&logo=proxmox&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
-![Windows Server](https://img.shields.io/badge/Windows%20Server-0078D6?style=flat-square&logo=windows&logoColor=white)
-![PowerShell](https://img.shields.io/badge/PowerShell-5391FE?style=flat-square&logo=powershell&logoColor=white)
-![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white)
-![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=flat-square&logo=cloudflare&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
+![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white)
+![PowerShell](https://img.shields.io/badge/PowerShell-5391FE?style=flat-square&logo=powershell&logoColor=white)
+![Active Directory](https://img.shields.io/badge/Active%20Directory-0078D4?style=flat-square&logo=microsoft&logoColor=white)
+![Proxmox](https://img.shields.io/badge/Proxmox-E57000?style=flat-square&logo=proxmox&logoColor=white)
+![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=flat-square&logo=cloudflare&logoColor=white)
 
 </div>
 
 <div align="center">
 
-**Security:** SIEM | Threat Detection | Incident Response | Vulnerability Scanning | Malware Analysis | EDR
+**Platform Engineering:** Terraform Modules | Reusable IaC | Multi-Cloud Infrastructure | Environment Parity
+
+**DevSecOps:** GitHub Actions CI/CD | TruffleHog Secret Scanning | Trivy Misconfiguration Scanning | Shift-Left Security
+
+**Cloud Security:** SIEM | Threat Detection | Incident Response | Vulnerability Scanning | Malware Analysis | EDR
 
 **Compliance:** NIST 800-171 | CMMC Level 2 | MITRE ATT&CK | ITIL
 
-**Networking:** VLANs | VPN | Firewalls | Network Segmentation | DNS
-
-**IaC:** Terraform | Azure Resource Manager | Infrastructure Automation
+**Networking:** VLANs | VPN | Firewalls | Network Segmentation | DNS | Zero Trust
 
 </div>
 
