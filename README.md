@@ -10,7 +10,7 @@
 
 ---
 
-B.S. Cybersecurity & Information Assurance | 8x Industry Certified | Azure & AWS Cloud Security
+B.S. Cybersecurity & Information Assurance | 8x Industry Certified | Azure & AWS Cloud Security | M.S. Software Engineering (DevOps) — In Progress
 
 Building and securing cloud platforms with Terraform and GitHub Actions across Azure and AWS. Focused on reusable IaC modules, automated security scanning pipelines, IAM least-privilege, secrets management, and compliance-aligned architecture.
 
