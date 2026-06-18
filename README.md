@@ -2,7 +2,7 @@
 
 # Jayden Hill
 
-**Platform Engineering | DevSecOps | Infrastructure as Code | Azure | AWS | CI/CD**
+**Platform Engineering | DevSecOps | Infrastructure as Code | Azure**
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jayden-hill-08ba02329/)
 [![Portfolio](https://img.shields.io/badge/Portfolio-222222?style=for-the-badge&logo=githubpages&logoColor=white)](https://jaydendh.github.io)
@@ -12,7 +12,7 @@
 
 B.S. Cybersecurity & Information Assurance | 8x Industry Certified | Azure & AWS Cloud Security | M.S. Software Engineering (DevOps) — In Progress
 
-Building and securing cloud platforms with Terraform and GitHub Actions across Azure and AWS. Focused on reusable IaC modules, automated security scanning pipelines, IAM least-privilege, secrets management, and compliance-aligned architecture.
+Building and securing cloud platforms with Terraform across Azure. Focused on reusable IaC modules, IAM least-privilege, secrets management, and compliance-aligned architecture.
 
 </div>
 
@@ -39,7 +39,7 @@ Building and securing cloud platforms with Terraform and GitHub Actions across A
 
 | Project | Description | Tech |
 |---------|-------------|------|
-| [AWS 3-Tier Backend](https://github.com/jaydendh/aws-3tier-backend) | Modular 3-tier AWS backend (EC2, S3, RDS) assembled entirely from reusable Terraform modules. Includes a full DevSecOps pipeline: TruffleHog secret scanning, Trivy misconfiguration scanning, Terraform fmt/validate, and plan preview on every push | Terraform, AWS, GitHub Actions, Trivy, TruffleHog |
+| [AWS 3-Tier Backend](https://github.com/jaydendh/aws-3tier-backend) | Modular 3-tier AWS backend (EC2, S3, RDS) assembled entirely from reusable Terrafohrm modules. Includes a full DevSecOps pipeline: TruffleHog secret scanning, Trivy misconfiguration scanning, Terraform fmt/validate, and plan preview on every push | Terraform, AWS, GitHub Actions, Trivy, TruffleHog |
 | [AWS Dev Data Pipeline](https://github.com/jaydendh/AWS-dev-data-pipeline) | End-to-end serverless data pipeline: raw S3 → Lambda (Python) → processed S3/RDS. Security-first: IMDSv2, encrypted storage, least-privilege IAM, CloudWatch retention, and full CI/CD security gate | Terraform, AWS, Lambda, S3, RDS, GitHub Actions, Trivy, TruffleHog |
 
 ---
@@ -105,7 +105,7 @@ Building and securing cloud platforms with Terraform and GitHub Actions across A
 
 **Platform Engineering:** Terraform Modules | Reusable IaC | Multi-Cloud Infrastructure | Environment Parity
 
-**DevSecOps:** GitHub Actions CI/CD | TruffleHog Secret Scanning | Trivy Misconfiguration Scanning | Shift-Left Security
+**DevSecOps:** TruffleHog Secret Scanning | Trivy Misconfiguration Scanning | Shift-Left Security
 
 **Cloud Security:** SIEM | Threat Detection | Incident Response | Vulnerability Scanning | Malware Analysis | EDR
 
