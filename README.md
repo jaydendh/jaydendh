@@ -35,28 +35,6 @@ Building and securing cloud platforms with Terraform across Azure. Focused on re
 
 ---
 
-## Platform Engineering & DevSecOps Projects
-
-| Project | Description | Tech |
-|---------|-------------|------|
-| [AWS 3-Tier Backend](https://github.com/jaydendh/aws-3tier-backend) | Modular 3-tier AWS backend (EC2, S3, RDS) assembled entirely from reusable Terrafohrm modules. Includes a full DevSecOps pipeline: TruffleHog secret scanning, Trivy misconfiguration scanning, Terraform fmt/validate, and plan preview on every push | Terraform, AWS, GitHub Actions, Trivy, TruffleHog |
-| [AWS Dev Data Pipeline](https://github.com/jaydendh/AWS-dev-data-pipeline) | End-to-end serverless data pipeline: raw S3 → Lambda (Python) → processed S3/RDS. Security-first: IMDSv2, encrypted storage, least-privilege IAM, CloudWatch retention, and full CI/CD security gate | Terraform, AWS, Lambda, S3, RDS, GitHub Actions, Trivy, TruffleHog |
-
----
-
-## Terraform / Infrastructure as Code Projects
-
-| Project | Description | Tech |
-|---------|-------------|------|
-| [AWS SMB Environment](https://github.com/jaydendh/aws-smb-environment) | Three-VPC AWS infrastructure for a small business — web, office, and database tiers with VPC peering, EC2 via SSM, S3 file storage, and RDS MySQL | Terraform, AWS, VPC, EC2, S3, RDS, IAM |
-| [Azure 3-Tier Architecture](https://github.com/jaydendh/azure-3tier-architecture) | Production-grade 3-tier architecture with App Service, SQL, Key Vault, Application Gateway, Private Endpoints, and full monitoring | Terraform, Azure, NSG, Key Vault, App Gateway |
-| [Azure 3-Tier Simplified](https://github.com/jaydendh/azure-3tier-simple) | Core 3-tier architecture focused on networking fundamentals — VNet, subnets, NSGs, App Service, SQL | Terraform, Azure, NSG |
-| [Azure Web App](https://github.com/jaydendh/azure-webapp-terraform) | Minimal App Service deployment demonstrating core Terraform resource blocks and dependency ordering | Terraform, Azure App Service |
-| [Azure Static Website](https://github.com/jaydendh/azure-static-site-terraform) | Serverless static site on Azure Blob Storage — no VMs, no quota, near-zero cost | Terraform, Azure Storage |
-| [AWS EC2 Secure Deployment](https://github.com/jaydendh/aws-terraform-ec2) | Secure EC2 instance with VPC, public subnet, IGW, and SSH-restricted security group | Terraform, AWS, EC2, VPC |
-
----
-
 ## Cloud Security Projects
 
 | Project | Description | Tech |
@@ -64,7 +42,6 @@ Building and securing cloud platforms with Terraform across Azure. Focused on re
 | [Azure Zero Trust Networking](https://github.com/jaydendh/Azure-Zero-Trust-Hub-Networking) | Hub-and-spoke architecture with Bastion, NSGs, and zero public IPs | Azure, Bastion, NSG, VNet |
 | [Azure Identity Security & Logging](https://github.com/jaydendh/Azure-Identity-Centric-Security-Logging) | Identity-first security with Entra ID sign-in monitoring and KQL investigations | Azure, Entra ID, Log Analytics, KQL |
 | [Azure SIEM Honeypot](https://github.com/jaydendh/azure-siem-honeypot) | Windows honeypot VM with Microsoft Sentinel for real-time brute force attack monitoring and geolocation mapping | Terraform, Sentinel, Log Analytics, KQL |
-| [AWS Terraform EC2](https://github.com/jaydendh/aws-terraform-ec2) | Secure EC2 deployment with CI/CD pipeline including TruffleHog secret scanning, Trivy misconfiguration scanning, and Terraform plan validation | Terraform, AWS, GitHub Actions, Trivy, TruffleHog |
 
 ---
 
