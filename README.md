@@ -2,7 +2,7 @@
 
 # Jayden Hill
 
-**Platform Engineering | DevSecOps | Infrastructure as Code | Azure**
+**Platform Engineering | Infrastructure as Code | Azure**
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jayden-hill-08ba02329/)
 [![Portfolio](https://img.shields.io/badge/Portfolio-222222?style=for-the-badge&logo=githubpages&logoColor=white)](https://jaydendh.github.io)
@@ -81,8 +81,6 @@ Building and securing cloud platforms with Terraform across Azure. Focused on re
 <div align="center">
 
 **Platform Engineering:** Terraform Modules | Reusable IaC | Multi-Cloud Infrastructure | Environment Parity
-
-**DevSecOps:** TruffleHog Secret Scanning | Trivy Misconfiguration Scanning | Shift-Left Security
 
 **Cloud Security:** SIEM | Threat Detection | Incident Response | Vulnerability Scanning | Malware Analysis | EDR
 
