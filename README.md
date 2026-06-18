@@ -91,13 +91,3 @@ Building and securing cloud platforms with Terraform across Azure. Focused on re
 **Networking:** VLANs | VPN | Firewalls | Network Segmentation | DNS | Zero Trust
 
 </div>
-
----
-
-<div align="center">
-
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=jaydendh&theme=tokyonight&hide_border=true&show_icons=true&count_private=true)
-
-![Streak](https://github-readme-streak-stats.herokuapp.com/?user=jaydendh&theme=tokyonight&hide_border=true)
-
-</div>
