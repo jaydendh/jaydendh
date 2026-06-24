@@ -2,7 +2,7 @@
 
 # Jayden Hill
 
-**Platform Engineering | Infrastructure as Code | Azure**
+**Platform Engineering | Cloud Infrastructure Engineer| Terraform | Cloud Security | Infrastructure as Code | Azure**
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jayden-hill-08ba02329/)
 [![Portfolio](https://img.shields.io/badge/Portfolio-222222?style=for-the-badge&logo=githubpages&logoColor=white)](https://jaydendh.github.io)
@@ -10,7 +10,7 @@
 
 ---
 
-B.S. Cybersecurity & Information Assurance | 8x Industry Certified | Azure & AWS Cloud Security | M.S. Software Engineering (DevOps) — In Progress
+B.S. Cybersecurity & Information Assurance | 8x Industry Certified | Azure Cloud Security | M.S. Software Engineering (DevOps) — In Progress
 
 Building and securing cloud platforms with Terraform across Azure. Focused on reusable IaC modules, IAM least-privilege, secrets management, and compliance-aligned architecture.
 
