@@ -2,7 +2,7 @@
 
 # Jayden Hill
 
-**Platform Engineering | Cloud Infrastructure Engineer| Terraform | Cloud Security | Infrastructure as Code | Azure**
+**Platform Engineering | Cloud Infrastructure Engineer | Terraform | Kubernetes | Cloud Security | Infrastructure as Code | Azure**
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jayden-hill-08ba02329/)
 [![Portfolio](https://img.shields.io/badge/Portfolio-222222?style=for-the-badge&logo=githubpages&logoColor=white)](https://jaydendh.github.io)
@@ -10,9 +10,9 @@
 
 ---
 
-B.S. Cybersecurity & Information Assurance | 8x Industry Certified | Azure Cloud Security | M.S. Software Engineering (DevOps) — In Progress
+B.S. Cybersecurity & Information Assurance | 10x Industry Certified | Azure Cloud Security | M.S. Software Engineering (DevOps) — In Progress
 
-Building and securing cloud platforms with Terraform across Azure. Focused on reusable IaC modules, IAM least-privilege, secrets management, and compliance-aligned architecture.
+Building and securing cloud platforms with Terraform across Azure. Focused on reusable IaC modules, IAM least-privilege, secrets management, and compliance-aligned architecture. Running a bare-metal k3s Kubernetes cluster at home, deployed through GitOps with Argo CD.
 
 </div>
 
@@ -22,6 +22,8 @@ Building and securing cloud platforms with Terraform across Azure. Focused on re
 
 <div align="center">
 
+![AZ-104](https://img.shields.io/badge/Microsoft-AZ--104%20Azure%20Administrator-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)
+[![Terraform Associate](https://img.shields.io/badge/HashiCorp-Terraform%20Associate-7B42BC?style=flat-square&logo=terraform&logoColor=white)](https://www.credly.com/users/jaydendh)
 [![AZ-900](https://img.shields.io/badge/Microsoft-AZ--900-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)](https://learn.microsoft.com/api/credentials/share/en-us/jayden-7296/8E3C21D2CD7CE40A?sharingId=5911BDD371A0D73C)
 [![CySA+](https://img.shields.io/badge/CompTIA-CySA%2B-red?style=flat-square&logo=comptia&logoColor=white)](https://www.credly.com/users/jaydendh)
 [![Security+](https://img.shields.io/badge/CompTIA-Security%2B-red?style=flat-square&logo=comptia&logoColor=white)](https://www.credly.com/badges/aa112932-79d3-4bfb-9e5a-2251abcbb71f/public_url)
@@ -49,6 +51,7 @@ Building and securing cloud platforms with Terraform across Azure. Focused on re
 
 | Project | Description | Tech |
 |---------|-------------|------|
+| [Homelab Platform](https://github.com/jaydendh/Homelab) | Bare-metal lab behind an OPNsense firewall: 3-node k3s cluster deployed through GitOps with Argo CD, Prometheus + Grafana observability, and Tailscale zero-trust remote access | k3s, Argo CD, Helm, Traefik, Prometheus, Grafana, OPNsense, Tailscale |
 | [SOC Environment](https://github.com/jaydendh/HomeLab-SOC-Environment) | Two-node Proxmox SOC for threat detection, IR, and malware analysis | Proxmox, Windows Server, Kali |
 | [Active Directory Lab](https://github.com/jaydendh/Active-Directory-Lab) | AD DS with GPOs, RBAC, and incident response scenarios | Windows Server, AD DS, GPO |
 | [DNS Security Server](https://github.com/jaydendh/AdGuard-DNS-Security-Server) | Network-wide DNS filtering, sinkholing, C2 blocking with DoH | AdGuard, DNS, DoH |
@@ -69,11 +72,20 @@ Building and securing cloud platforms with Terraform across Azure. Focused on re
 ![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
+![Helm](https://img.shields.io/badge/Helm-0F1689?style=flat-square&logo=helm&logoColor=white)
+![Argo CD](https://img.shields.io/badge/Argo%20CD-EF7B4D?style=flat-square&logo=argo&logoColor=white)
+![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=flat-square&logo=prometheus&logoColor=white)
+![Grafana](https://img.shields.io/badge/Grafana-F46800?style=flat-square&logo=grafana&logoColor=white)
+![Traefik](https://img.shields.io/badge/Traefik-24A1C1?style=flat-square&logo=traefikproxy&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
 ![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white)
 ![PowerShell](https://img.shields.io/badge/PowerShell-5391FE?style=flat-square&logo=powershell&logoColor=white)
 ![Active Directory](https://img.shields.io/badge/Active%20Directory-0078D4?style=flat-square&logo=microsoft&logoColor=white)
 ![Proxmox](https://img.shields.io/badge/Proxmox-E57000?style=flat-square&logo=proxmox&logoColor=white)
+![OPNsense](https://img.shields.io/badge/OPNsense-D94F00?style=flat-square&logo=opnsense&logoColor=white)
+![TrueNAS](https://img.shields.io/badge/TrueNAS-0095D5?style=flat-square&logo=truenas&logoColor=white)
+![Tailscale](https://img.shields.io/badge/Tailscale-242424?style=flat-square&logo=tailscale&logoColor=white)
 ![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=flat-square&logo=cloudflare&logoColor=white)
 
 </div>
@@ -82,10 +94,18 @@ Building and securing cloud platforms with Terraform across Azure. Focused on re
 
 **Platform Engineering:** Terraform Modules | Reusable IaC | Multi-Cloud Infrastructure | Environment Parity
 
+**Azure Administration:** Entra ID & RBAC | Virtual Networking | Compute | Storage | Monitoring & Governance
+
+**Kubernetes & GitOps:** k3s | Helm | Argo CD | Traefik Ingress | Hand-Written Manifests | Persistent Storage
+
+**Observability:** Prometheus | Grafana | Alertmanager | Uptime Kuma
+
+**Virtualization & Storage:** Proxmox VE (VMs, LXC) | TrueNAS | ZFS | NFS
+
 **Cloud Security:** SIEM | Threat Detection | Incident Response | Vulnerability Scanning | Malware Analysis | EDR
 
 **Compliance:** NIST 800-171 | CMMC Level 2 | MITRE ATT&CK | ITIL
 
-**Networking:** VLANs | VPN | Firewalls | Network Segmentation | DNS | Zero Trust
+**Networking:** OPNsense | VLANs | VPN (Tailscale / WireGuard) | Firewalls | Network Segmentation | DNS | Zero Trust
 
 </div>
