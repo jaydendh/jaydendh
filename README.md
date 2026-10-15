@@ -49,16 +49,15 @@ Building and securing cloud platforms with Terraform across Azure. Focused on re
 
 ## Home Lab Projects
 
+Everything below runs on my [Homelab](https://github.com/jaydendh/Homelab): bare metal behind an OPNsense firewall, a Proxmox hypervisor, and a 3-node k3s cluster deployed through GitOps with Argo CD.
+
 | Project | Description | Tech |
 |---------|-------------|------|
-| [Homelab Platform](https://github.com/jaydendh/Homelab) | Bare-metal lab behind an OPNsense firewall: 3-node k3s cluster deployed through GitOps with Argo CD, Prometheus + Grafana observability, and Tailscale zero-trust remote access | k3s, Argo CD, Helm, Traefik, Prometheus, Grafana, OPNsense, Tailscale |
-| [SOC Environment](https://github.com/jaydendh/HomeLab-SOC-Environment) | Two-node Proxmox SOC for threat detection, IR, and malware analysis | Proxmox, Windows Server, Kali |
-| [Active Directory Lab](https://github.com/jaydendh/Active-Directory-Lab) | AD DS with GPOs, RBAC, and incident response scenarios | Windows Server, AD DS, GPO |
-| [DNS Security Server](https://github.com/jaydendh/AdGuard-DNS-Security-Server) | Network-wide DNS filtering, sinkholing, C2 blocking with DoH | AdGuard, DNS, DoH |
-| [Secure VPN Gateway](https://github.com/jaydendh/Secure-VPN-Gateway) | Encrypted remote access with firewall rules and least-privilege ACLs | VPN, iptables, UFW |
-| [Proxmox Telegram AI Agent](https://github.com/jaydendh/Proxmox-Telegram-AI-Agent) | AI-powered VM monitoring with Telegram alerts, auto-recovery, and remote troubleshooting | Proxmox API, Telegram, Python, AI |
-| [TrueNAS Storage Server](https://github.com/jaydendh/TrueNAS-Self-Hosted-Storage) | Self-hosted NAS on Proxmox with user accounts, ACLs, and ZFS storage | TrueNAS, ZFS, ACL, Proxmox |
-| [Nextcloud Private Cloud](https://github.com/jaydendh/NextCloud-Server-Setup) | Self-hosted cloud storage with E2E encryption and zero-trust access | Nextcloud, Cloudflare, Tailscale |
+| [TrueNAS](https://github.com/jaydendh/Homelab/blob/main/proxmox/truenas/README.md) | ZFS storage VM sharing data over NFS and SMB to Jellyfin, desktops, and the cluster | TrueNAS, ZFS, NFS, SMB |
+| [Jellyfin](https://github.com/jaydendh/Homelab/blob/main/proxmox/jellyfin/README.md) | Self-hosted media server in an LXC container with GPU (NVENC) transcoding | Jellyfin, LXC, NVIDIA NVENC |
+| [Argo CD](https://github.com/jaydendh/Homelab/blob/main/kubernetes/argocd/README.md) | GitOps controller installed with Helm; a `git push` to the repo deploys changes to the cluster | Argo CD, Helm, Traefik, k3s |
+| [Monitoring](https://github.com/jaydendh/Homelab/blob/main/kubernetes/monitoring/README.md) | Cluster metrics, dashboards, and alert rules from the kube-prometheus-stack chart | Prometheus, Grafana, Alertmanager, Helm |
+| [Uptime Kuma](https://github.com/jaydendh/Homelab/blob/main/kubernetes/apps/uptime-kuma/README.md) | Uptime monitor deployed from hand-written manifests, reached by hostname through Traefik, synced by Argo CD | Kubernetes, Traefik, Argo CD |
 
 ---
 
