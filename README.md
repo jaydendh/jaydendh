@@ -41,9 +41,11 @@ Building and securing cloud platforms with Terraform across Azure. Focused on re
 
 | Project | Description | Tech |
 |---------|-------------|------|
-| [Azure Zero Trust Networking](https://github.com/jaydendh/Azure-Zero-Trust-Hub-Networking) | Hub-and-spoke architecture with Bastion, NSGs, and zero public IPs | Azure, Bastion, NSG, VNet |
-| [Azure Identity Security & Logging](https://github.com/jaydendh/Azure-Identity-Centric-Security-Logging) | Identity-first security with Entra ID sign-in monitoring and KQL investigations | Azure, Entra ID, Log Analytics, KQL |
-| [Azure SIEM Honeypot](https://github.com/jaydendh/azure-siem-honeypot) | Windows honeypot VM with Microsoft Sentinel for real-time brute force attack monitoring and geolocation mapping | Terraform, Sentinel, Log Analytics, KQL |
+| [Azure Cloud Security Baseline](https://github.com/jaydendh/Azure-Cloud-Security-Baseline) | CIS Azure Foundations policy-as-code, Key Vault reachable only over a Private Endpoint, a least-privilege custom RBAC role, and Defender for Cloud posture tracking | Terraform, Key Vault, Private Endpoint, Azure Policy, Defender for Cloud, KQL |
+| [Azure VM Security Hardening](https://github.com/jaydendh/Security-Hardening-Linux-IaC) | CIS Level 1 hardening of Ubuntu and Windows Server VMs on first boot, with every control verified, a drift test, and least-privilege users | Terraform, CIS Benchmark, auditd, PAM, UFW, AuditPol |
+| [Azure Uptime Monitor](https://github.com/jaydendh/Uptime-Monitor) | Azure Function checks a site every 5 minutes for availability, latency, and content, with email and SMS alerts on failure | Terraform, Azure Functions, Python, App Insights, Azure Monitor |
+
+All three are deployed through GitHub Actions using OIDC federated credentials, with no long-lived secrets stored in GitHub.
 
 ---
 
